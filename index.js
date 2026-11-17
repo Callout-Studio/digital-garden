@@ -1,5 +1,5 @@
 /*
- * Callout Studio garden plugin 1.0.0
+ * Callout Studio garden plugin 1.0.1
  *
  * Draws the heading and inline callouts of the Callout Studio Obsidian
  * plugin while a Digital Garden is built. It holds no callouts: it reads
@@ -1221,8 +1221,7 @@ var CalloutStudioGarden = (() => {
   // src/web/static/gardenNote.ts
   var GARDEN_NOTE_KEY = "callout-studio-web";
   var GARDEN_NOTE_FORMAT = 1;
-  var GARDEN_NOTE_FOLDER = "callout-studio";
-  var GARDEN_NOTE_PATH = `${GARDEN_NOTE_FOLDER}/${GARDEN_NOTE_KEY}.md`;
+  var GARDEN_NOTE_PATH = `${GARDEN_NOTE_KEY}.md`;
   var GARDEN_STYLESHEET_URL = "/plugins/callout-studio/callout-studio.css";
   var FENCE_INFO = GARDEN_NOTE_KEY;
   var FINGERPRINT_PREFIX = "sha256:";
